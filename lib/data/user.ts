@@ -16,7 +16,7 @@ const getList = () => {
 //* email의 유저가 있는지 확인해보자
 const exist = ({ email }: { email: string }) => {
 	const users = getList();
-	return users.some((user) => user.email === eamil);
+	return users.some((user) => user.email === email);
 };
 
 //* 유저 리스트 저장하기
